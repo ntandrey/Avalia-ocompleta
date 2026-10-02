@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Direitos Consumidor</title>
+</head>
+<body>
+    <header>
+        <b>Menu de navegação</b>
+        <nav>
+            <ul>
+                <li><a href="prazos.html">Prazos</a></li>
+                <li><a href="abusos.html">Abusos</a></li>
+                <li><a href="denuncia.html"><mark>Denúncia</mark></a></li>
+            </ul>
+        </nav>
+        <hr>
+    </header>
+    <main>
+        <h1>Ouvidoria e Denúncias</h1>
+    <p>Teve algum problema com uma compra ou identificou uma prática abusiva? Preencha o formulário abaixo para registar a sua denúncia.</p>
+
+    
+    <form action="#" method="post">
+      
+      
+      <fieldset>
+        <legend>Dados do Consumidor</legend>
+        
+        <label for="nome">Nome Completo:</label>
+        <input type="text" id="nome" name="nome" required placeholder="Seu nome"><br><br>
+
+        <label for="email">E-mail de Contato:</label>
+        <input type="email" id="email" name="email" required placeholder="abc123@gmail.com">
+      </fieldset>
+
+      <br>
+
+      
+      <fieldset>
+        <legend>Detalhes da Reclamação</legend>
+
+        <label for="loja">Nome da Empresa/Loja:</label>
+        <input type="text" id="loja" name="loja"><br><br>
+
+        <label for="cor">Cor predominante da logo da Empresa/Loja:</label>
+        <input type="color" id="cor" name="corlogo"><br><br>
+
+        <label for="data">Data do Ocorrido:</label>
+        <input type="date" id="data" name="data"><br><br>
+
+        <label for="motivo">Motivo Principal:</label>
+        <input list="motivos-lista" id="motivo" name="motivo" placeholder="Selecione ou digite...">
+        <datalist id="motivos-lista">
+          <option value="Atraso na Entrega">
+          <option value="Produto com Defeito">
+          <option value="Venda Casada">
+          <option value="Propaganda Enganosa">
+          <option value="Cobrança Indevida">
+        </datalist><br><br>
+
+        <label for="gravidade">Nível de Gravidade da Situação (0 a 10):</label><br>
+        <input type="range" id="gravidade" name="gravidade" min="0" max="10" value="5"><br><br>
+
+        <label for="relato">Descreva o seu problema:</label><br>
+        <textarea id="relato" name="relato" rows="5" cols="40" required placeholder="Explique aqui"></textarea>
+        <br><br>
+        <label for="prova">Anexar Prova (Foto, Fatura, Print):</label><br>
+        <input type="file" id="prova" name="prova">
+      </fieldset>
+
+      <br>
+      <button type="submit">Enviar Denúncia</button>
+      <button type="reset">Limpar Formulário</button>
+
+    </form>
+
+    <hr>
+
+    <section>
+      <h2>Outros Canais de Atendimento</h2>
+      <p>Se preferir, entre em contato diretamente com os órgãos de proteção:</p>
+      
+      
+      <address>
+        <strong>Procon Central</strong><br>
+        Rua da unipê, nº 100 - Centro<br>
+        Telefone: 151<br>
+        E-mail: atendimento@procon.gov.br
+      </address>
+    </section>
+    
+        <br><br>
+        <p>
+            <strong>Você acessou 100% do conteúdo desse site:</strong><br>
+            <progress value="100" max="100"></progress>
+            100 %
+        </p>
+    </main>
+
+
+
+    <br>
+
+    <footer>
+        <hr>
+        <p>© 2026 Direitos Consumidor — Conteúdo informativo baseado no CDC.</p>
+        <p>Projeto feito em: <time datetime="2026-09-25">25 de setembro de 2026</time></p>
+    </footer>
+</body>
+</html>
